@@ -1,0 +1,643 @@
+TTesteARma
+v6
+r1
+cCheck dependencies
+cCompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/patterndetector.o /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/patterndetector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/ARma_demo.o /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/ARma_demo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/pattern.o /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/pattern.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sashanicolas/Projects/TesteOpenCV/build/Debug/TesteARma normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c0000000053471FE200000000000000AA
+t1397170146
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c000000005268268B000000000000044C
+t1382557323
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000532B9B4600000000000001DE
+t1395366726
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+c00000000532B9B48000000000000681C
+t1395366728
+s26652
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+c0000000052682691000000000006E8B0
+t1382557329
+s452784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+c00000000526826910000000000004734
+t1382557329
+s18228
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+c0000000052682691000000000000FC6C
+t1382557329
+s64620
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+c0000000052682691000000000000F6A0
+t1382557329
+s63136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+c00000000526826910000000000006254
+t1382557329
+s25172
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+c0000000052682691000000000000E0F8
+t1382557329
+s57592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+c00000000532B9B48000000000000D6DC
+t1395366728
+s55004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+c00000000532B9B480000000000006308
+t1395366728
+s25352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+c00000000526826910000000000004050
+t1382557329
+s16464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+c00000000532B9B480000000000008570
+t1395366728
+s34160
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+c00000000526826910000000000005EA0
+t1382557329
+s24224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+c00000000526826910000000000005FAC
+t1382557329
+s24492
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+c00000000526826910000000000004440
+t1382557329
+s17472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+c0000000052682691000000000000AA28
+t1382557329
+s43560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+c00000000526826910000000000003E2C
+t1382557329
+s15916
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+c00000000532B9B480000000000030B04
+t1395366728
+s199428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+c00000000532B9B480000000000005E54
+t1395366728
+s24148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+c00000000532B9B480000000000006A90
+t1395366728
+s27280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+c000000005268269100000000000178AC
+t1382557329
+s96428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+c00000000532B9B48000000000001ADC8
+t1395366728
+s110024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+c0000000052682691000000000001028C
+t1382557329
+s66188
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+c00000000532B9B480000000000008800
+t1395366728
+s34816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+c00000000526826910000000000011090
+t1382557329
+s69776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+c0000000052682691000000000000882C
+t1382557329
+s34860
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+c00000000532B9B4800000000000067AC
+t1395366728
+s26540
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+c00000000526826910000000000008DEC
+t1382557329
+s36332
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+c00000000532B9B480000000000004C08
+t1395366728
+s19464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+c00000000532B9B480000000000002428
+t1395366728
+s9256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+c0000000052682691000000000000439C
+t1382557329
+s17308
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+c00000000526826910000000000006768
+t1382557329
+s26472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+c00000000532B9B4800000000000172F4
+t1395366728
+s94964
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000532B9B490000000000000ADC
+t1395366729
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+c0000000053471FCA0000000000001770
+t1397170122
+s6000
+
+N/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/ARma_demo.cpp
+c00000000539070F40000000000000EAF
+t1401975028
+s3759
+
+N/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/cameraparams.h
+c00000000539070E7000000000000012E
+t1401975015
+s302
+
+N/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/pattern.cpp
+c0000000050F990060000000000000F99
+t1358532614
+s3993
+
+N/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/pattern.h
+c0000000053906A0C00000000000004CE
+t1401973260
+s1230
+
+N/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/patterndetector.cpp
+c0000000050FAAD7E0000000000001D4A
+t1358605694
+s7498
+
+N/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/patterndetector.h
+c0000000050F98D9C00000000000004D6
+t1358531996
+s1238
+
+N/Users/sashanicolas/Projects/TesteOpenCV/TesteARma/main.cpp
+c00000000539069670000000000000324
+t1401973095
+s804
+
+N/Users/sashanicolas/Projects/TesteOpenCV/build/Debug/TesteARma
+t1401975030
+s114512
+
+N/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/ARma_demo.o
+t1401975030
+s228220
+
+N/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/TesteARma.LinkFileList
+c0000000053906A32000000000000016F
+t1401973298
+s367
+
+N/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/main.o
+c0000000053906969000000000001D82C
+t1401973097
+s120876
+
+N/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/pattern.o
+t1401973265
+s214276
+
+N/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/patterndetector.o
+t1401973265
+s343644
+
+N/usr/local/include/opencv2/calib3d/calib3d.hpp
+c000000005347887E0000000000009303
+t1397196926
+s37635
+
+N/usr/local/include/opencv2/core/core.hpp
+c000000005347887E000000000002D7CC
+t1397196926
+s186316
+
+N/usr/local/include/opencv2/core/core_c.h
+c000000005347887E00000000000132A1
+t1397196926
+s78497
+
+N/usr/local/include/opencv2/core/mat.hpp
+c000000005347887E0000000000013AB1
+t1397196926
+s80561
+
+N/usr/local/include/opencv2/core/operations.hpp
+c000000005347887E00000000000202A9
+t1397196926
+s131753
+
+N/usr/local/include/opencv2/core/types_c.h
+c000000005347887E000000000000E080
+t1397196926
+s57472
+
+N/usr/local/include/opencv2/core/version.hpp
+c000000005347887E0000000000000BC5
+t1397196926
+s3013
+
+N/usr/local/include/opencv2/features2d/features2d.hpp
+c000000005347887E000000000000F98C
+t1397196926
+s63884
+
+N/usr/local/include/opencv2/flann/config.h
+c000000005347887E00000000000006FD
+t1397196926
+s1789
+
+N/usr/local/include/opencv2/flann/defines.h
+c000000005347887E000000000000124B
+t1397196926
+s4683
+
+N/usr/local/include/opencv2/flann/miniflann.hpp
+c000000005347887E0000000000001785
+t1397196926
+s6021
+
+N/usr/local/include/opencv2/highgui/highgui.hpp
+c000000005347887E00000000000023CA
+t1397196926
+s9162
+
+N/usr/local/include/opencv2/highgui/highgui_c.h
+c000000005347887E0000000000006C83
+t1397196926
+s27779
+
+N/usr/local/include/opencv2/imgproc/imgproc.hpp
+c000000005347887E000000000000DBE5
+t1397196926
+s56293
+
+N/usr/local/include/opencv2/imgproc/types_c.h
+c000000005347887E0000000000004034
+t1397196926
+s16436
+
+N/usr/local/include/opencv2/video/tracking.hpp
+c000000005347887E00000000000047FF
+t1397196926
+s18431
+
+N/usr/local/lib/libopencv_calib3d.2.4.9.dylib
+c000000005388F0440000000000141810
+t1401483332
+s1316880
+
+N/usr/local/lib/libopencv_contrib.2.4.9.dylib
+c000000005388F04400000000001DA07C
+t1401483332
+s1941628
+
+N/usr/local/lib/libopencv_core.2.4.9.dylib
+c000000005388F043000000000043AB4C
+t1401483331
+s4434764
+
+N/usr/local/lib/libopencv_features2d.2.4.9.dylib
+c000000005388F044000000000015012C
+t1401483332
+s1376556
+
+N/usr/local/lib/libopencv_flann.2.4.9.dylib
+c000000005388F0430000000000140358
+t1401483331
+s1311576
+
+N/usr/local/lib/libopencv_gpu.2.4.9.dylib
+c000000005388F0440000000000045F40
+t1401483332
+s286528
+
+N/usr/local/lib/libopencv_highgui.2.4.9.dylib
+c000000005388F04400000000003BDC5C
+t1401483332
+s3923036
+
+N/usr/local/lib/libopencv_imgproc.2.4.9.dylib
+c000000005388F04300000000003D5324
+t1401483331
+s4018980
+
+N/usr/local/lib/libopencv_legacy.2.4.9.dylib
+c000000005388F044000000000020F928
+t1401483332
+s2160936
+
+N/usr/local/lib/libopencv_ml.2.4.9.dylib
+c000000005388F04400000000000D5FC8
+t1401483332
+s876488
+
+N/usr/local/lib/libopencv_nonfree.2.4.9.dylib
+c000000005388F0440000000000073A34
+t1401483332
+s473652
+
+N/usr/local/lib/libopencv_objdetect.2.4.9.dylib
+c000000005388F04400000000001437AC
+t1401483332
+s1324972
+
+N/usr/local/lib/libopencv_ocl.2.4.9.dylib
+c000000005388F0440000000000412298
+t1401483332
+s4268696
+
+N/usr/local/lib/libopencv_photo.2.4.9.dylib
+c000000005388F044000000000003AC7C
+t1401483332
+s240764
+
+N/usr/local/lib/libopencv_stitching.2.4.9.dylib
+c000000005388F0440000000000125E98
+t1401483332
+s1203864
+
+N/usr/local/lib/libopencv_superres.2.4.9.dylib
+c000000005388F04400000000000777FC
+t1401483332
+s489468
+
+N/usr/local/lib/libopencv_ts.a
+c000000005388F04400000000005F8BA8
+t1401483332
+s6261672
+
+N/usr/local/lib/libopencv_video.2.4.9.dylib
+c000000005388F0440000000000092EA0
+t1401483332
+s601760
+
+N/usr/local/lib/libopencv_videostab.2.4.9.dylib
+c000000005388F044000000000006A440
+t1401483332
+s435264
+
+CBuild AST from /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/ARma_demo.cpp
+r0
+
+CBuild AST from /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/pattern.cpp
+r0
+
+CBuild AST from /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/patterndetector.cpp
+r0
+
+CBuild AST from /Users/sashanicolas/Projects/TesteOpenCV/TesteARma/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies105c856cf340b941^23bc856cf340b941^---0#1#1#--18"Check dependencies36"2C46BB23-C755-4F61-99DE-E4AB42B5BC0E-
+
+CCompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/ARma_demo.o /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/ARma_demo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s423667828.853096
+e423667830.448552
+r1
+xCompileC
+xbuild/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/ARma_demo.o
+x/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/ARma_demo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/ARma_demo.cpp
+d/usr/local/include/opencv2/core/core.hpp
+d/usr/local/include/opencv2/core/types_c.h
+d/usr/local/include/opencv2/core/version.hpp
+d/usr/local/include/opencv2/core/operations.hpp
+d/usr/local/include/opencv2/core/mat.hpp
+d/usr/local/include/opencv2/highgui/highgui.hpp
+d/usr/local/include/opencv2/highgui/highgui_c.h
+d/usr/local/include/opencv2/core/core_c.h
+d/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/cameraparams.h
+d/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/patterndetector.h
+d/usr/local/include/opencv2/imgproc/imgproc.hpp
+d/usr/local/include/opencv2/imgproc/types_c.h
+d/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/pattern.h
+d/usr/local/include/opencv2/calib3d/calib3d.hpp
+d/usr/local/include/opencv2/features2d/features2d.hpp
+d/usr/local/include/opencv2/flann/miniflann.hpp
+d/usr/local/include/opencv2/flann/defines.h
+d/usr/local/include/opencv2/flann/config.h
+o/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/ARma_demo.cpp:15:17: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+ochar* filename1="pattern1.png";//id=1
+o                ^
+o/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/ARma_demo.cpp:16:17: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+ochar* filename2="pattern2.png";//id=2
+o                ^
+o/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/ARma_demo.cpp:17:17: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+ochar* filename3="pattern3.png";//id=3
+o                ^
+o3 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/ARma_demo.cpp234"CompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/ARma_demo.o /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/ARma_demo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc383da74a840b941^63d37276a840b941^-754"/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/ARma_demo.cpp:15:17: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]char* filename1="pattern1.png";//id=1                ^/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/ARma_demo.cpp:16:17: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]char* filename2="pattern2.png";//id=2                ^/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/ARma_demo.cpp:17:17: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]char* filename3="pattern3.png";//id=3                ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@56"Conversion from string literal to 'char *' is deprecated-423667830#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@91"file:///Users/sashanicolas/Dropbox/PUC/fundamentos%20CG/camera/ARma_opencv243/ARma_demo.cpp0000000000000000^14#16#14#16#448#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-423667830#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/sashanicolas/Dropbox/PUC/fundamentos%20CG/camera/ARma_opencv243/ARma_demo.cpp0000000000000000^15#16#15#16#487#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-423667830#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/sashanicolas/Dropbox/PUC/fundamentos%20CG/camera/ARma_opencv243/ARma_demo.cpp0000000000000000^16#16#16#16#526#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@91"file:///Users/sashanicolas/Dropbox/PUC/fundamentos%20CG/camera/ARma_opencv243/ARma_demo.cpp0000000000000000^2996"CompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/ARma_demo.o /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/ARma_demo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sashanicolas/Projects/TesteOpenCV    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/sashanicolas/Projects/TesteOpenCV/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-generated-files.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-own-target-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-all-target-headers.hmap -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-project-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/usr/local/include -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/DerivedSources/x86_64 -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/DerivedSources -F/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -MMD -MT dependencies -MF /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/ARma_demo.d --serialize-diagnostics /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/ARma_demo.dia -c /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/ARma_demo.cpp -o /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/ARma_demo.o36"0E7E6A91-ACFA-4496-BC66-D2DF12E582D7-
+bFA577A3F-FAD3-462C-BA97-65D35993B1CE
+
+CCompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/main.o /Users/sashanicolas/Projects/TesteOpenCV/TesteARma/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s423665896.841505
+e423665897.738881
+r1
+xCompileC
+xbuild/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/main.o
+x/Users/sashanicolas/Projects/TesteOpenCV/TesteARma/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sashanicolas/Projects/TesteOpenCV/TesteARma/main.cpp
+d/usr/local/include/opencv2/core/core.hpp
+d/usr/local/include/opencv2/core/types_c.h
+d/usr/local/include/opencv2/core/version.hpp
+d/usr/local/include/opencv2/core/operations.hpp
+d/usr/local/include/opencv2/core/mat.hpp
+d/usr/local/include/opencv2/highgui/highgui.hpp
+d/usr/local/include/opencv2/highgui/highgui_c.h
+d/usr/local/include/opencv2/core/core_c.h
+d/usr/local/include/opencv2/video/tracking.hpp
+d/usr/local/include/opencv2/imgproc/imgproc.hpp
+d/usr/local/include/opencv2/imgproc/types_c.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/sashanicolas/Projects/TesteOpenCV/TesteARma/main.cpp164"CompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/main.o TesteARma/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler3b8ad7e8a040b941^f228bde9a040b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/sashanicolas/Projects/TesteOpenCV/TesteARma/main.cpp0000000000000000^2887"CompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/main.o TesteARma/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sashanicolas/Projects/TesteOpenCV    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/sashanicolas/Projects/TesteOpenCV/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-generated-files.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-own-target-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-all-target-headers.hmap -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-project-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/usr/local/include -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/DerivedSources/x86_64 -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/DerivedSources -F/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -MMD -MT dependencies -MF /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/main.dia -c /Users/sashanicolas/Projects/TesteOpenCV/TesteARma/main.cpp -o /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/main.o36"5F63F943-F748-49E6-85A2-569CA2180FDD-
+b0ED2DCE0-A2BE-4C77-93C8-97016C75A622
+
+CCompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/pattern.o /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/pattern.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s423666064.140867
+e423666065.751900
+r1
+xCompileC
+xbuild/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/pattern.o
+x/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/pattern.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/pattern.cpp
+d/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/pattern.h
+d/usr/local/include/opencv2/core/core.hpp
+d/usr/local/include/opencv2/core/types_c.h
+d/usr/local/include/opencv2/core/version.hpp
+d/usr/local/include/opencv2/core/operations.hpp
+d/usr/local/include/opencv2/core/mat.hpp
+d/usr/local/include/opencv2/imgproc/imgproc.hpp
+d/usr/local/include/opencv2/imgproc/types_c.h
+d/usr/local/include/opencv2/core/core_c.h
+d/usr/local/include/opencv2/calib3d/calib3d.hpp
+d/usr/local/include/opencv2/features2d/features2d.hpp
+d/usr/local/include/opencv2/flann/miniflann.hpp
+d/usr/local/include/opencv2/flann/defines.h
+d/usr/local/include/opencv2/flann/config.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/pattern.cpp230"CompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/pattern.o /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/pattern.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd42c2490a140b941^904bc091a140b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/sashanicolas/Dropbox/PUC/fundamentos%20CG/camera/ARma_opencv243/pattern.cpp0000000000000000^2984"CompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/pattern.o /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/pattern.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sashanicolas/Projects/TesteOpenCV    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/sashanicolas/Projects/TesteOpenCV/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-generated-files.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-own-target-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-all-target-headers.hmap -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-project-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/usr/local/include -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/DerivedSources/x86_64 -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/DerivedSources -F/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -MMD -MT dependencies -MF /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/pattern.d --serialize-diagnostics /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/pattern.dia -c /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/pattern.cpp -o /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/pattern.o36"9319EE81-A52B-44F0-9129-DFE3B4423823-
+b0D92C108-8F01-4E15-9AF5-5E9AF90B3654
+
+CCompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/patterndetector.o /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/patterndetector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s423666064.139993
+e423666065.793727
+r1
+xCompileC
+xbuild/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/patterndetector.o
+x/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/patterndetector.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/patterndetector.cpp
+d/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/patterndetector.h
+d/usr/local/include/opencv2/core/core.hpp
+d/usr/local/include/opencv2/core/types_c.h
+d/usr/local/include/opencv2/core/version.hpp
+d/usr/local/include/opencv2/core/operations.hpp
+d/usr/local/include/opencv2/core/mat.hpp
+d/usr/local/include/opencv2/imgproc/imgproc.hpp
+d/usr/local/include/opencv2/imgproc/types_c.h
+d/usr/local/include/opencv2/core/core_c.h
+d/Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/pattern.h
+d/usr/local/include/opencv2/calib3d/calib3d.hpp
+d/usr/local/include/opencv2/features2d/features2d.hpp
+d/usr/local/include/opencv2/flann/miniflann.hpp
+d/usr/local/include/opencv2/flann/defines.h
+d/usr/local/include/opencv2/flann/config.h
+d/usr/local/include/opencv2/highgui/highgui.hpp
+d/usr/local/include/opencv2/highgui/highgui_c.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/sashanicolas/Dropbox/PUC/fundamentos CG/camera/ARma_opencv243/patterndetector.cpp246"CompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/patterndetector.o /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/patterndetector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerbc072490a140b941^ca33cb91a140b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/sashanicolas/Dropbox/PUC/fundamentos%20CG/camera/ARma_opencv243/patterndetector.cpp0000000000000000^3032"CompileC build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/patterndetector.o /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/patterndetector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sashanicolas/Projects/TesteOpenCV    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/sashanicolas/Projects/TesteOpenCV/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-generated-files.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-own-target-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-all-target-headers.hmap -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/TesteARma-project-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/usr/local/include -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/DerivedSources/x86_64 -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/DerivedSources -F/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -MMD -MT dependencies -MF /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/patterndetector.d --serialize-diagnostics /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/patterndetector.dia -c /Users/sashanicolas/Dropbox/PUC/fundamentos\ CG/camera/ARma_opencv243/patterndetector.cpp -o /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/patterndetector.o36"51A89030-9756-4394-A309-7C7BA5F6D22F-
+b0D92C108-8F01-4E15-9AF5-5E9AF90B3654
+
+CLd /Users/sashanicolas/Projects/TesteOpenCV/build/Debug/TesteARma normal x86_64
+s423667830.454159
+e423667830.676678
+r1
+xLd
+x/Users/sashanicolas/Projects/TesteOpenCV/build/Debug/TesteARma
+xnormal
+xx86_64
+d/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/TesteARma.LinkFileList
+d/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/patterndetector.o
+d/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/ARma_demo.o
+d/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/pattern.o
+d/usr/local/lib/libopencv_ts.a
+d/usr/local/lib/libopencv_calib3d.2.4.9.dylib
+d/usr/local/lib/libopencv_contrib.2.4.9.dylib
+d/usr/local/lib/libopencv_core.2.4.9.dylib
+d/usr/local/lib/libopencv_features2d.2.4.9.dylib
+d/usr/local/lib/libopencv_flann.2.4.9.dylib
+d/usr/local/lib/libopencv_gpu.2.4.9.dylib
+d/usr/local/lib/libopencv_highgui.2.4.9.dylib
+d/usr/local/lib/libopencv_imgproc.2.4.9.dylib
+d/usr/local/lib/libopencv_legacy.2.4.9.dylib
+d/usr/local/lib/libopencv_ml.2.4.9.dylib
+d/usr/local/lib/libopencv_nonfree.2.4.9.dylib
+d/usr/local/lib/libopencv_objdetect.2.4.9.dylib
+d/usr/local/lib/libopencv_ocl.2.4.9.dylib
+d/usr/local/lib/libopencv_photo.2.4.9.dylib
+d/usr/local/lib/libopencv_stitching.2.4.9.dylib
+d/usr/local/lib/libopencv_superres.2.4.9.dylib
+d/usr/local/lib/libopencv_video.2.4.9.dylib
+d/usr/local/lib/libopencv_videostab.2.4.9.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Link /Users/sashanicolas/Projects/TesteOpenCV/build/Debug/TesteARma38"Ld build/Debug/TesteARma normal x86_64645d7476a840b941^8e3bad76a840b941^---0#0#1#--1312"Ld build/Debug/TesteARma normal x86_64    cd /Users/sashanicolas/Projects/TesteOpenCV    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -L/usr/local/lib -F/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -filelist /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/TesteARma.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -lopencv_ts -lopencv_calib3d.2.4.9 -lopencv_contrib.2.4.9 -lopencv_core.2.4.9 -lopencv_features2d.2.4.9 -lopencv_flann.2.4.9 -lopencv_gpu.2.4.9 -lopencv_highgui.2.4.9 -lopencv_imgproc.2.4.9 -lopencv_legacy.2.4.9 -lopencv_ml.2.4.9 -lopencv_nonfree.2.4.9 -lopencv_objdetect.2.4.9 -lopencv_ocl.2.4.9 -lopencv_photo.2.4.9 -lopencv_stitching.2.4.9 -lopencv_superres.2.4.9 -lopencv_video.2.4.9 -lopencv_videostab.2.4.9 -Xlinker -dependency_info -Xlinker /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteARma.build/Objects-normal/x86_64/TesteARma_dependency_info.dat -o /Users/sashanicolas/Projects/TesteOpenCV/build/Debug/TesteARma36"31DF0D74-3792-45DE-85BE-33333FF2A041-
+bFA577A3F-FAD3-462C-BA97-65D35993B1CE
+

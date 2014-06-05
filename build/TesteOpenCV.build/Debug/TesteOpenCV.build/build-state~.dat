@@ -1,0 +1,58 @@
+TTesteOpenCV
+v6
+r1
+cCheck dependencies
+cCompileC build/TesteOpenCV.build/Debug/TesteOpenCV.build/Objects-normal/x86_64/main.o /Users/sashanicolas/Projects/TesteOpenCV/TesteOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c000000005268268B000000000000044C
+t1382557323
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000532B9B4600000000000001DE
+t1395366726
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000532B9B490000000000000ADC
+t1395366729
+s2780
+
+N/Users/sashanicolas/Projects/TesteOpenCV/TesteOpenCV/main.cpp
+c000000005388E7930000000000000311
+t1401481107
+s785
+
+N/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteOpenCV.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+CBuild AST from /Users/sashanicolas/Projects/TesteOpenCV/TesteOpenCV/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2502692b2039b941^450f6c2b2039b941^---0#1#1#--18"Check dependencies36"2A6B250F-B0D7-4AFC-A531-9C2B97DB603A-
+
+CCompileC build/TesteOpenCV.build/Debug/TesteOpenCV.build/Objects-normal/x86_64/main.o /Users/sashanicolas/Projects/TesteOpenCV/TesteOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s423174187.422983
+e423174188.489903
+r0
+xCompileC
+xbuild/TesteOpenCV.build/Debug/TesteOpenCV.build/Objects-normal/x86_64/main.o
+x/Users/sashanicolas/Projects/TesteOpenCV/TesteOpenCV/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/sashanicolas/Projects/TesteOpenCV/TesteOpenCV/main.cpp:12:10: fatal error: 'opencv2/core/core.hpp' file not found
+o#include <opencv2/core/core.hpp>
+o         ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/sashanicolas/Projects/TesteOpenCV/TesteOpenCV/main.cpp168"CompileC build/TesteOpenCV.build/Debug/TesteOpenCV.build/Objects-normal/x86_64/main.o TesteOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler02646c2b2039b941^90697d2c2039b941^-184"/Users/sashanicolas/Projects/TesteOpenCV/TesteOpenCV/main.cpp:12:10: fatal error: 'opencv2/core/core.hpp' file not found#include <opencv2/core/core.hpp>         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@38"'opencv2/core/core.hpp' file not found-423174188#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@68"file:///Users/sashanicolas/Projects/TesteOpenCV/TesteOpenCV/main.cpp0000000000000000^11#9#11#9#206#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@68"file:///Users/sashanicolas/Projects/TesteOpenCV/TesteOpenCV/main.cpp0000000000000000^2905"CompileC build/TesteOpenCV.build/Debug/TesteOpenCV.build/Objects-normal/x86_64/main.o TesteOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sashanicolas/Projects/TesteOpenCV    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/sashanicolas/Projects/TesteOpenCV/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteOpenCV.build/TesteOpenCV-generated-files.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteOpenCV.build/TesteOpenCV-own-target-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteOpenCV.build/TesteOpenCV-all-target-headers.hmap -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteOpenCV.build/TesteOpenCV-project-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/usr/local/lib -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteOpenCV.build/DerivedSources/x86_64 -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteOpenCV.build/DerivedSources -F/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -MMD -MT dependencies -MF /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteOpenCV.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteOpenCV.build/Objects-normal/x86_64/main.dia -c /Users/sashanicolas/Projects/TesteOpenCV/TesteOpenCV/main.cpp -o /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/TesteOpenCV.build/Objects-normal/x86_64/main.o36"20D1F7CC-AC57-4B9D-9AAF-3178F43C9846-
+b15D9AE13-E6FF-40FF-A287-0C0C07700D26
+
+CLd /Users/sashanicolas/Projects/TesteOpenCV/build/Debug/TesteOpenCV normal x86_64
+r0
+

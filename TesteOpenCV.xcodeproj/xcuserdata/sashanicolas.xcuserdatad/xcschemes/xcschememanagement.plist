@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Calibrate.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>TesteARma.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>B7CF08C01940AAD2009A1685</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7CF08E219410340009A1685</key>
 		<dict>
 			<key>primary</key>
 			<true/>

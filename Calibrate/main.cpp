@@ -30,12 +30,13 @@ int main(int argc, char* argv[])
 	assert( capture );
     
 	cvNamedWindow( "Calibration" );
-	// Allocate Sotrage
+	// Allocate Storage
 	CvMat* image_points		= cvCreateMat( n_boards*board_n, 2, CV_32FC1 );
 	CvMat* object_points		= cvCreateMat( n_boards*board_n, 3, CV_32FC1 );
 	CvMat* point_counts			= cvCreateMat( n_boards, 1, CV_32SC1 );
 	CvMat* intrinsic_matrix		= cvCreateMat( 3, 3, CV_32FC1 );
 	CvMat* distortion_coeffs	= cvCreateMat( 5, 1, CV_32FC1 );
+    
     
 	CvPoint2D32f* corners = new CvPoint2D32f[ board_n ];
 	int corner_count;
@@ -46,7 +47,7 @@ int main(int argc, char* argv[])
 	IplImage *gray_image = cvCreateImage( cvGetSize( image ), 8, 1 );
     
 	// Capture Corner views loop until we've got n_boards
-	// succesful captures (all corners on the board are found)
+	// successful captures (all corners on the board are found)
     
 	while( successes < n_boards ){
 		// Skp every board_dt frames to allow user to move chessboard

@@ -456,7 +456,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6285535dfa41b941^9c8c625dfa41b941^---0#1#1#--18"Check dependencies36"8DC67A77-B391-4C39-A978-C6E99F8B5F91-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6808fb03ba48b941^cd920004ba48b941^---0#1#1#--18"Check dependencies36"84BCACCF-2232-4653-B4B4-3905AE08DFB9-
 
 CCompileC build/TesteOpenCV.build/Debug/simplAR.build/Objects-normal/x86_64/main.o /Users/sashanicolas/Projects/TesteOpenCV/simplAR/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s423668500.777262

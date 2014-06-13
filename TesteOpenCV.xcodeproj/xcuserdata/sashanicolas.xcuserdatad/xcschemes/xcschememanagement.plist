@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Trabalho2FCG.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>simplAR.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -27,6 +32,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>B709C8EA194B983A00E6A5F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B77B68CF19391D3700CBB8A1</key>
 		<dict>
 			<key>primary</key>

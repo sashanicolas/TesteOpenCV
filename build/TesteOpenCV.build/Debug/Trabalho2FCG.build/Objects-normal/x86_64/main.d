@@ -26,4 +26,6 @@ dependencies: \
   /usr/local/include/opencv2/highgui/highgui.hpp \
   /usr/local/include/opencv2/contrib/contrib.hpp \
   /usr/local/include/opencv2/contrib/retina.hpp \
-  /usr/local/include/opencv2/contrib/openfabmap.hpp
+  /usr/local/include/opencv2/contrib/openfabmap.hpp \
+  /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/patterndetector.h \
+  /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.h

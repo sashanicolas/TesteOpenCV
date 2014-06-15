@@ -13,7 +13,10 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/video/tracking.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
-#include <opencv2/imgproc/imgproc.hpp>
+
+#include "patterndetector.h"
+
+#define PAT_SIZE 64//equal to pattern_size variable (see below)
 
 int estado = 0; //0=calibra, 1=detecta
 CvCapture* capture = cvCreateCameraCapture(0);
@@ -23,6 +26,7 @@ public:
     int n_boards, board_dt, board_w, board_h, board_n;
     CvSize board_sz;
     CvMat* image_points, *object_points, *point_counts, *intrinsic_matrix, *distortion_coeffs;
+    IplImage *tmp;
     
     CalibraCamera(int w, int h, int n){
         board_w = w; // Board width in squares
@@ -45,15 +49,14 @@ public:
         int successes = 0;
         int step, frame = 0;
         
-//        IplImage *image = cvQueryFrame( capture );
-        
         IplImage *image = cvQueryFrame( capture );
         
+        /*(IplImage *image = cvQueryFrame( capture );
         cvSetImageROI(image, cvRect(300, 300, 600, 600));
-        IplImage *tmp = cvCreateImage(cvGetSize(image), image->depth, image->nChannels);
+        tmp = cvCreateImage(cvGetSize(image), image->depth, image->nChannels);
         cvCopy(image, tmp, NULL);
         cvResetImageROI(image);
-        image = cvCloneImage(tmp);
+        image = cvCloneImage(tmp);//*/
         
         IplImage *gray_image = cvCreateImage( cvGetSize( image ), 8, 1 );
         
@@ -74,7 +77,7 @@ public:
                 
                 // Draw it
                 cvDrawChessboardCorners( image, board_sz, corners, corner_count, found );
-                cvShowImage( "Calibration", image );
+                //cvShowImage( "Calibration", image );
                 
                 // If we got a good board, add it to our data
                 if( corner_count == board_n ){
@@ -90,22 +93,22 @@ public:
                     successes++;
                 }
             }
-            
+            cvShowImage( "Calibracao", image );
             // Handle pause/unpause and ESC
-            int c = cvWaitKey( 15 );
+            int c = cvWaitKey( 30 );
             if( c == 'p' ){
                 c = 0;
                 while( c != 'p' && c != 27 ){
                     c = cvWaitKey( 250 );
                 }
             }
-//            image = cvQueryFrame( capture ); // Get next image
-            image = cvQueryFrame( capture );
+            image = cvQueryFrame( capture ); // Get next image
+            /*image = cvQueryFrame( capture );
             cvSetImageROI(image, cvRect(300, 300, 600, 600));
-            IplImage *tmp = cvCreateImage(cvGetSize(image), image->depth, image->nChannels);
+            tmp = cvCreateImage(cvGetSize(image), image->depth, image->nChannels);
             cvCopy(image, tmp, NULL);
             cvResetImageROI(image);
-            image = cvCloneImage(tmp);
+            image = cvCloneImage(tmp);//*/
         } // End collection while loop
         
         // Allocate matrices according to how many chessboards found
@@ -150,43 +153,115 @@ public:
 class DetectaPadrao{
 public:
     
-};
+    std::vector<cv::Mat> patternLibrary;
+	std::vector<ARma::Pattern> detectedPattern;
+	int patternCount;
+    
+	int norm_pattern_size, adapt_block_size = 45, mode = 2;
+	double fixed_thresh = 40, adapt_thresh = 5, confidenceThreshold = 0.35;
+	ARma::PatternDetector * myDetector;
 
+    CvMat* intrinsic, *distor;
+	Mat cameraMatrix, distortions;
+    
+    DetectaPadrao(){
+        patternCount=0;
+        norm_pattern_size = PAT_SIZE;
+        adapt_block_size = 45;//non-used with FIXED_THRESHOLD mode
+        mode = 2;//1:FIXED_THRESHOLD, 2: ADAPTIVE_THRESHOLD
+        fixed_thresh = 40;
+        adapt_thresh = 5;//non-used with FIXED_THRESHOLD mode
+        confidenceThreshold = 0.35;
+        myDetector = new ARma::PatternDetector( fixed_thresh, adapt_thresh, adapt_block_size,
+                                               confidenceThreshold, norm_pattern_size, mode);
+        
+        intrinsic = (CvMat*)cvLoad("sashaintri.xml");
+        distor = (CvMat*)cvLoad("sashadistor.xml");
+        cameraMatrix = cvarrToMat(intrinsic);
+        distortions = cvarrToMat(distor);
+        
+    }
+    
+    void run(){
+        Mat imgMat;
+        int k=0;
+        IplImage* img;
+        //    Mat imgMat ;
+        while(k<500){
+            //mycapture >> imgMat;
+            img = cvQueryFrame(capture);
+            imgMat = Mat(img);
+            double tic=(double)cvGetTickCount();
+            
+            //run the detector
+            myDetector->detect(imgMat, cameraMatrix, distortions, patternLibrary, detectedPattern);
+            
+            double toc=(double)cvGetTickCount();
+            double detectionTime = (toc-tic)/((double) cvGetTickFrequency()*1000);
+            cout << "Detected Patterns: " << detectedPattern.size() << endl;
+            cout << "Detection time: " << detectionTime << endl;
+            
+            //augment the input frame (and print out the properties of pattern if you want)
+            for (unsigned int i =0; i<detectedPattern.size(); i++){
+                //detectedPattern.at(i).showPattern();
+                detectedPattern.at(i).draw( imgMat, cameraMatrix, distortions);
+            }
+      
+            imshow("Detectando Padrao", imgMat);
+//            cvWaitKey(1);
+            int c = cvWaitKey( 30 );
+            if(c=='q') exit(1);
+            k++;
+            
+            detectedPattern.clear();
+        }
+        cvReleaseCapture(&capture);
+        
+    }
+    
+    int loadPattern(const char* filename){
+        Mat img = imread(filename,0);
+        
+        if(img.cols!=img.rows){
+            return -1;
+            printf("Not a square pattern");
+        }
+        
+        int msize = PAT_SIZE;
+        
+        Mat src(msize, msize, CV_8UC1);
+        Point2f center((msize-1)/2.0f,(msize-1)/2.0f);
+        Mat rot_mat(2,3,CV_32F);
+        
+        resize(img, src, Size(msize,msize));
+        Mat subImg = src(Range(msize/4,3*msize/4), Range(msize/4,3*msize/4));
+        patternLibrary.push_back(subImg);
+        
+        rot_mat = getRotationMatrix2D( center, 90, 1.0);
+        
+        for (int i=1; i<4; i++){
+            Mat dst= Mat(msize, msize, CV_8UC1);
+            rot_mat = getRotationMatrix2D( center, -i*90, 1.0);
+            warpAffine( src, dst , rot_mat, Size(msize,msize));
+            Mat subImg = dst(Range(msize/4,3*msize/4), Range(msize/4,3*msize/4));
+            patternLibrary.push_back(subImg);
+        }
+        
+        patternCount++;
+        printf("%d padrao carregado.",patternCount);
+        return 1;
+    }
+    
+};
 
 int main(){
     
-    cv::VideoCapture cap;
-    cap.open(0);
-    
-    if( !cap.isOpened() )
-    {
-        std::cerr << "***Could not initialize capturing...***\n";
-        std::cerr << "Current parameter's value: \n";
-        return -1;
-    }
-    
     CalibraCamera cc(5,4,8);
     cc.Calibrate();
+    
     DetectaPadrao dp;
-    
-    
-    cv::Mat frame;
-    while(1){
-        cap >> frame;
-        if(frame.empty()){
-            std::cerr<<"frame is empty"<<std::endl;
-            break;
-        }
-        
-        if(estado == 0){
-            
-        }
-        
-        cv::imshow("", frame);
-        
-        
-        cv::waitKey(10);
-    }
+    dp.loadPattern("padrao.png");
+    dp.run();    
     
     return 1;
 }

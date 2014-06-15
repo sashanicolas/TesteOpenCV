@@ -2,7 +2,9 @@ TTrabalho2FCG
 v6
 r1
 cCheck dependencies
+cCompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/pattern.o /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.o /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/patterndetector.o /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/patterndetector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/sashanicolas/Projects/TesteOpenCV/build/Debug/Trabalho2FCG normal x86_64
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
@@ -191,22 +193,50 @@ t1397170122
 s6000
 
 N/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/main.cpp
-c00000000539B6D380000000000001C10
-t1402694968
-s7184
+c00000000539DD059000000000000282A
+t1402851417
+s10282
+
+N/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.cpp
+c00000000539B5FF30000000000000FAE
+t1402691571
+s4014
+
+N/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.h
+c00000000539B5FC700000000000004D5
+t1402691527
+s1237
+
+N/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/patterndetector.cpp
+c00000000539B5FFC0000000000001D58
+t1402691580
+s7512
+
+N/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/patterndetector.h
+c0000000050F98D9C00000000000004D6
+t1358531996
+s1238
 
 N/Users/sashanicolas/Projects/TesteOpenCV/build/Debug/Trabalho2FCG
-t1402694924
-s35124
+t1402851338
+s123744
 
 N/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/Trabalho2FCG.LinkFileList
-c00000000539B615E0000000000000077
-t1402691934
-s119
+c00000000539DC95D0000000000000173
+t1402849629
+s371
 
 N/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.o
-t1402694969
-s140816
+t1402851472
+s245088
+
+N/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/pattern.o
+t1402849632
+s214260
+
+N/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/patterndetector.o
+t1402849632
+s343628
 
 N/usr/local/include/opencv2/calib3d/calib3d.hpp
 c000000005347887E0000000000009303
@@ -441,13 +471,19 @@ s435264
 CBuild AST from /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/main.cpp
 r0
 
+CBuild AST from /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.cpp
+r0
+
+CBuild AST from /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/patterndetector.cpp
+r0
+
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3e5c1eb8a44bb941^eab220b8a44bb941^---0#1#1#--18"Check dependencies36"C88894A2-098A-4935-996F-00EEEF083876-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies44fcff0c084eb941^c9c9000d084eb941^---0#1#1#--18"Check dependencies36"5E02686E-2A30-46E0-B964-BF44260F2259-
 
 CCompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.o /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s424387768.122446
-e424387769.445679
+s424544269.004609
+e424544272.963587
 r1
 xCompileC
 xbuild/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.o
@@ -484,23 +520,84 @@ d/usr/local/include/opencv2/highgui/highgui.hpp
 d/usr/local/include/opencv2/contrib/contrib.hpp
 d/usr/local/include/opencv2/contrib/retina.hpp
 d/usr/local/include/opencv2/contrib/openfabmap.hpp
-o/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/main.cpp:170:19: warning: unused variable 'dp' [-Wunused-variable]
-o    DetectaPadrao dp;
-o                  ^
-o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/main.cpp170"CompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.o Trabalho2FCG/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilere2771fb8a44bb941^b11772b9a44bb941^-184"/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/main.cpp:170:19: warning: unused variable 'dp' [-Wunused-variable]    DetectaPadrao dp;                  ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@20"Unused variable 'dp'-424387769#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@69"file:///Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/main.cpp0000000000000000^169#18#169#18#6841#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@69"file:///Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/main.cpp0000000000000000^2935"CompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.o Trabalho2FCG/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sashanicolas/Projects/TesteOpenCV    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/sashanicolas/Projects/TesteOpenCV/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-generated-files.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-own-target-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-all-target-headers.hmap -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-project-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/usr/local/include -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/DerivedSources/x86_64 -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/DerivedSources -F/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -MMD -MT dependencies -MF /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.dia -c /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/main.cpp -o /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.o36"83DC655D-D684-4318-A381-4FF59D7FCCDA-
-b85D61709-7CAB-4780-8AE1-00D354AF5BA8
+d/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/patterndetector.h
+d/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/main.cpp170"CompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.o Trabalho2FCG/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler5f61010d084eb941^eeaff610084eb941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/main.cpp0000000000000000^2935"CompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.o Trabalho2FCG/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sashanicolas/Projects/TesteOpenCV    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/sashanicolas/Projects/TesteOpenCV/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-generated-files.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-own-target-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-all-target-headers.hmap -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-project-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/usr/local/include -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/DerivedSources/x86_64 -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/DerivedSources -F/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -MMD -MT dependencies -MF /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.dia -c /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/main.cpp -o /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.o36"5F13FEE7-F71E-495D-8FDE-E2D8798B2D18-
+bB0F8B337-8DD6-4411-8631-6D7D42BA139C
+
+CCompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/pattern.o /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s424542429.415296
+e424542432.762596
+r1
+xCompileC
+xbuild/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/pattern.o
+x/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.cpp
+d/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.h
+d/usr/local/include/opencv2/core/core.hpp
+d/usr/local/include/opencv2/core/types_c.h
+d/usr/local/include/opencv2/core/version.hpp
+d/usr/local/include/opencv2/core/operations.hpp
+d/usr/local/include/opencv2/core/mat.hpp
+d/usr/local/include/opencv2/imgproc/imgproc.hpp
+d/usr/local/include/opencv2/imgproc/types_c.h
+d/usr/local/include/opencv2/core/core_c.h
+d/usr/local/include/opencv2/calib3d/calib3d.hpp
+d/usr/local/include/opencv2/features2d/features2d.hpp
+d/usr/local/include/opencv2/flann/miniflann.hpp
+d/usr/local/include/opencv2/flann/defines.h
+d/usr/local/include/opencv2/flann/config.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.cpp176"CompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/pattern.o Trabalho2FCG/pattern.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler0ce76add004eb941^923cc3e0004eb941^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.cpp0000000000000000^2953"CompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/pattern.o Trabalho2FCG/pattern.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sashanicolas/Projects/TesteOpenCV    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/sashanicolas/Projects/TesteOpenCV/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-generated-files.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-own-target-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-all-target-headers.hmap -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-project-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/usr/local/include -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/DerivedSources/x86_64 -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/DerivedSources -F/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -MMD -MT dependencies -MF /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/pattern.d --serialize-diagnostics /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/pattern.dia -c /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.cpp -o /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/pattern.o36"8ABDD3AA-319D-453E-ACCF-CC89C15C5E91-
+b4AF926B9-4C42-4303-A44B-03CF86EF3D62
+
+CCompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/patterndetector.o /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/patterndetector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s424542429.416269
+e424542432.781552
+r1
+xCompileC
+xbuild/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/patterndetector.o
+x/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/patterndetector.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/patterndetector.cpp
+d/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/patterndetector.h
+d/usr/local/include/opencv2/core/core.hpp
+d/usr/local/include/opencv2/core/types_c.h
+d/usr/local/include/opencv2/core/version.hpp
+d/usr/local/include/opencv2/core/operations.hpp
+d/usr/local/include/opencv2/core/mat.hpp
+d/usr/local/include/opencv2/imgproc/imgproc.hpp
+d/usr/local/include/opencv2/imgproc/types_c.h
+d/usr/local/include/opencv2/core/core_c.h
+d/Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/pattern.h
+d/usr/local/include/opencv2/calib3d/calib3d.hpp
+d/usr/local/include/opencv2/features2d/features2d.hpp
+d/usr/local/include/opencv2/flann/miniflann.hpp
+d/usr/local/include/opencv2/flann/defines.h
+d/usr/local/include/opencv2/flann/config.h
+d/usr/local/include/opencv2/highgui/highgui.hpp
+d/usr/local/include/opencv2/highgui/highgui_c.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/patterndetector.cpp192"CompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/patterndetector.o Trabalho2FCG/patterndetector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc8ee6add004eb941^cf12c8e0004eb941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/patterndetector.cpp0000000000000000^3001"CompileC build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/patterndetector.o Trabalho2FCG/patterndetector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sashanicolas/Projects/TesteOpenCV    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/sashanicolas/Projects/TesteOpenCV/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-generated-files.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-own-target-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-all-target-headers.hmap -iquote /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Trabalho2FCG-project-headers.hmap -I/Users/sashanicolas/Projects/TesteOpenCV/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/usr/local/include -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/DerivedSources/x86_64 -I/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/DerivedSources -F/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -MMD -MT dependencies -MF /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/patterndetector.d --serialize-diagnostics /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/patterndetector.dia -c /Users/sashanicolas/Projects/TesteOpenCV/Trabalho2FCG/patterndetector.cpp -o /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/patterndetector.o36"F553F67C-7854-4760-9DBA-03C2D730F2B0-
+b4AF926B9-4C42-4303-A44B-03CF86EF3D62
 
 CLd /Users/sashanicolas/Projects/TesteOpenCV/build/Debug/Trabalho2FCG normal x86_64
-s424387769.447301
-e424387769.510070
+s424544272.969992
+e424544273.170816
 r1
 xLd
 x/Users/sashanicolas/Projects/TesteOpenCV/build/Debug/Trabalho2FCG
 xnormal
 xx86_64
 d/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/Trabalho2FCG.LinkFileList
+d/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/pattern.o
 d/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/main.o
+d/Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/patterndetector.o
 d/usr/local/lib/libopencv_calib3d.2.4.9.dylib
 d/usr/local/lib/libopencv_contrib.2.4.9.dylib
 d/usr/local/lib/libopencv_core.2.4.9.dylib
@@ -553,6 +650,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Link /Users/sashanicolas/Projects/TesteOpenCV/build/Debug/Trabalho2FCG41"Ld build/Debug/Trabalho2FCG normal x86_64f69672b9a44bb941^117286b9a44bb941^---0#0#1#--1330"Ld build/Debug/Trabalho2FCG normal x86_64    cd /Users/sashanicolas/Projects/TesteOpenCV    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -L/usr/local/lib -F/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -filelist /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/Trabalho2FCG.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -lopencv_calib3d.2.4.9 -lopencv_contrib.2.4.9 -lopencv_core.2.4.9 -lopencv_features2d.2.4.9 -lopencv_flann.2.4.9 -lopencv_gpu.2.4.9 -lopencv_highgui.2.4.9 -lopencv_imgproc.2.4.9 -lopencv_legacy.2.4.9 -lopencv_ml.2.4.9 -lopencv_nonfree.2.4.9 -lopencv_objdetect.2.4.9 -lopencv_ocl.2.4.9 -lopencv_photo.2.4.9 -lopencv_stitching.2.4.9 -lopencv_superres.2.4.9 -lopencv_ts -lopencv_video.2.4.9 -lopencv_videostab.2.4.9 -Xlinker -dependency_info -Xlinker /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/Trabalho2FCG_dependency_info.dat -o /Users/sashanicolas/Projects/TesteOpenCV/build/Debug/Trabalho2FCG36"CB823343-61C7-4C89-878C-6BFC33A3BCD6-
-b85D61709-7CAB-4780-8AE1-00D354AF5BA8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Link /Users/sashanicolas/Projects/TesteOpenCV/build/Debug/Trabalho2FCG41"Ld build/Debug/Trabalho2FCG normal x86_642c66f810084eb941^c7bb2b11084eb941^---0#0#1#--1330"Ld build/Debug/Trabalho2FCG normal x86_64    cd /Users/sashanicolas/Projects/TesteOpenCV    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -L/usr/local/lib -F/Users/sashanicolas/Projects/TesteOpenCV/build/Debug -filelist /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/Trabalho2FCG.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -lopencv_calib3d.2.4.9 -lopencv_contrib.2.4.9 -lopencv_core.2.4.9 -lopencv_features2d.2.4.9 -lopencv_flann.2.4.9 -lopencv_gpu.2.4.9 -lopencv_highgui.2.4.9 -lopencv_imgproc.2.4.9 -lopencv_legacy.2.4.9 -lopencv_ml.2.4.9 -lopencv_nonfree.2.4.9 -lopencv_objdetect.2.4.9 -lopencv_ocl.2.4.9 -lopencv_photo.2.4.9 -lopencv_stitching.2.4.9 -lopencv_superres.2.4.9 -lopencv_ts -lopencv_video.2.4.9 -lopencv_videostab.2.4.9 -Xlinker -dependency_info -Xlinker /Users/sashanicolas/Projects/TesteOpenCV/build/TesteOpenCV.build/Debug/Trabalho2FCG.build/Objects-normal/x86_64/Trabalho2FCG_dependency_info.dat -o /Users/sashanicolas/Projects/TesteOpenCV/build/Debug/Trabalho2FCG36"38E6A0B5-6E2D-4EF1-8C0D-AB5D7A42B8CF-
+bB0F8B337-8DD6-4411-8631-6D7D42BA139C
 

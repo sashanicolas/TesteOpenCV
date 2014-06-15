@@ -28,6 +28,8 @@
 		B709C904194B98C900E6A5F1 /* libopencv_ts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF08B21940A0C9009A1685 /* libopencv_ts.a */; };
 		B709C905194B98C900E6A5F1 /* libopencv_video.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B77B69A4193928E100CBB8A1 /* libopencv_video.2.4.9.dylib */; };
 		B709C906194B98C900E6A5F1 /* libopencv_videostab.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B77B69A5193928E100CBB8A1 /* libopencv_videostab.2.4.9.dylib */; };
+		B709C90B194DFA5900E6A5F1 /* pattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B709C907194DFA5900E6A5F1 /* pattern.cpp */; };
+		B709C90C194DFA5900E6A5F1 /* patterndetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B709C909194DFA5900E6A5F1 /* patterndetector.cpp */; };
 		B77B68D419391D3700CBB8A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B77B68D319391D3700CBB8A1 /* main.cpp */; };
 		B77B68D619391D3700CBB8A1 /* TesteOpenCV.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B77B68D519391D3700CBB8A1 /* TesteOpenCV.1 */; };
 		B77B69A6193928E100CBB8A1 /* libopencv_calib3d.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B77B6994193928E100CBB8A1 /* libopencv_calib3d.2.4.9.dylib */; };
@@ -172,6 +174,10 @@
 		B709C8EB194B983A00E6A5F1 /* Trabalho2FCG */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Trabalho2FCG; sourceTree = BUILT_PRODUCTS_DIR; };
 		B709C8ED194B983A00E6A5F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B709C8EF194B983A00E6A5F1 /* Trabalho2FCG.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Trabalho2FCG.1; sourceTree = "<group>"; };
+		B709C907194DFA5900E6A5F1 /* pattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pattern.cpp; sourceTree = "<group>"; };
+		B709C908194DFA5900E6A5F1 /* pattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pattern.h; sourceTree = "<group>"; };
+		B709C909194DFA5900E6A5F1 /* patterndetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = patterndetector.cpp; sourceTree = "<group>"; };
+		B709C90A194DFA5900E6A5F1 /* patterndetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patterndetector.h; sourceTree = "<group>"; };
 		B77B68D019391D3700CBB8A1 /* TesteOpenCV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TesteOpenCV; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77B68D319391D3700CBB8A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B77B68D519391D3700CBB8A1 /* TesteOpenCV.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TesteOpenCV.1; sourceTree = "<group>"; };
@@ -346,6 +352,10 @@
 		B709C8EC194B983A00E6A5F1 /* Trabalho2FCG */ = {
 			isa = PBXGroup;
 			children = (
+				B709C907194DFA5900E6A5F1 /* pattern.cpp */,
+				B709C908194DFA5900E6A5F1 /* pattern.h */,
+				B709C909194DFA5900E6A5F1 /* patterndetector.cpp */,
+				B709C90A194DFA5900E6A5F1 /* patterndetector.h */,
 				B709C8ED194B983A00E6A5F1 /* main.cpp */,
 				B709C8EF194B983A00E6A5F1 /* Trabalho2FCG.1 */,
 			);
@@ -567,7 +577,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B709C90B194DFA5900E6A5F1 /* pattern.cpp in Sources */,
 				B709C8EE194B983A00E6A5F1 /* main.cpp in Sources */,
+				B709C90C194DFA5900E6A5F1 /* patterndetector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
